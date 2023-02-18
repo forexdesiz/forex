@@ -16,10 +16,14 @@ body, html {
 	position: absolute;
 	border: 7px solid white;
 	top: 50%;
+	font-family: 'Playfair Display', serif;
 	padding: 1rem 7rem;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	color: white;
+	h1{
+		font-size: xxx-large;
+	}
 	button {
 		border: none;
 		outline: 0;
@@ -35,6 +39,59 @@ body, html {
 		}
 	}
 }
+
+.discord-section{
+	background-image: url("/media/discord\ back.png");
+			background-attachment: fixed;
+			background-position: center;
+			background-repeat: no-repeat;
+			min-height: 300px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background-size: cover;
+	// .parallax{
+		
+
+	// 		background-attachment: fixed;
+	// 		background-position: center;
+	// 		background-repeat: no-repeat;
+	// 		background-size: cover;
+					
+	// }
+	p{
+		color:white
+	}
+	.heading{
+		font-size: xx-large;
+		color:white;
+		font-weight: 700;
+		text-align: center;
+		text-transform: capitalize;
+	}
+	.discord-button{
+		background-color: none;
+		background-color: #d9a712;
+		border: 0;
+		width: max-content;
+		padding: 0.2rem 5rem;
+		border-radius: 20px;
+		// box-shadow: 0px 4px 10px -4px #ebebeb;
+		&:hover{
+			background-color: #5e4806;
+			// box-shadow: 0px 4px 10px 0px #ebebeb;
+		}
+		&:active{
+			background-color: #5e4806 !important;
+			// box-shadow: 0px 4px 10px 0px #ebebeb;
+		}
+
+
+	}
+
+}
+	
+
 footer div{
     background-color:grey;
     color:white;padding:.2rem

@@ -18,10 +18,15 @@ body, html {
   position: absolute;
   border: 7px solid white;
   top: 50%;
+  font-family: 'Playfair Display', serif;
   padding: 1rem 7rem;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+}
+
+.hero-text h1 {
+  font-size: xxx-large;
 }
 
 .hero-text button {
@@ -38,6 +43,47 @@ body, html {
 .hero-text button:hover {
   background-color: #555;
   color: white;
+}
+
+.discord-section {
+  background-image: url("/media/discord back.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
+
+.discord-section p {
+  color: white;
+}
+
+.discord-section .heading {
+  font-size: xx-large;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.discord-section .discord-button {
+  background-color: none;
+  background-color: #d9a712;
+  border: 0;
+  width: max-content;
+  padding: 0.2rem 5rem;
+  border-radius: 20px;
+}
+
+.discord-section .discord-button:hover {
+  background-color: #5e4806;
+}
+
+.discord-section .discord-button:active {
+  background-color: #5e4806 !important;
 }
 
 footer div {
