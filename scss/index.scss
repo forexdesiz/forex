@@ -10,6 +10,7 @@ body, html {
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
+	max-height: 380px;
 }
 .hero-text {
 	text-align: center;
@@ -24,20 +25,7 @@ body, html {
 	h1{
 		font-size:7rem;
 	}
-	button {
-		border: none;
-		outline: 0;
-		display: inline-block;
-		padding: 10px 25px;
-		color: black;
-		background-color: #ddd;
-		text-align: center;
-		cursor: pointer;
-		&:hover {
-			background-color: #555;
-			color: white;
-		}
-	}
+	
 }
 .intro{
 	iframe {
@@ -54,15 +42,7 @@ body, html {
 			justify-content: center;
 			align-items: center;
 			background-size: cover;
-	// .parallax{
-		
 
-	// 		background-attachment: fixed;
-	// 		background-position: center;
-	// 		background-repeat: no-repeat;
-	// 		background-size: cover;
-					
-	// }
 	p{
 		color:white
 	}
@@ -113,4 +93,37 @@ body, html {
 footer div{
     background-color:grey;
     color:white;padding:.2rem
+}
+
+@media (max-width: 767.98px) { 
+	.hero-image {
+		max-height: 350px;
+		background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 1.1)), url(../media/heroback.jpg);
+	}
+	.hero-text {
+		
+		 padding: 1rem 2rem;
+		
+		h1{
+			font-size:5rem;
+		}
+		
+	}
+
+ }
+ @media (max-width: 575.98px) { 
+	.hero-image {
+		max-height: 300px;
+		background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 1.1)), url(../media/heroback.jpg);
+		
+	}
+	.hero-text {
+		
+		// padding: 1rem 2rem;
+		
+		h1{
+			font-size:xxx-large;
+		}
+		
+	}
 }
