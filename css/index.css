@@ -87,6 +87,45 @@ body, html {
   height: 400px;
 }
 
+.partner img {
+  width: -webkit-fill-available;
+}
+
+.partner .img-col {
+  position: relative;
+}
+
+.partner h2 {
+  color: #0d1350;
+}
+
+.partner .fusion-btn {
+  border: none;
+  display: flex;
+  outline: none;
+  background-color: #9079d8;
+  position: absolute;
+  bottom: 1rem;
+  color: white;
+  right: 1rem;
+  transition: width .4s;
+  align-items: center;
+}
+
+.partner .fusion-btn i {
+  display: none;
+}
+
+.partner .fusion-btn:hover {
+  color: #eee;
+  background-color: #7079d8;
+}
+
+.partner .fusion-btn:hover i {
+  display: flex;
+  margin-left: .5rem;
+}
+
 footer div {
   background-color: grey;
   color: white;

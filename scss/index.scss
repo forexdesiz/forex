@@ -88,7 +88,41 @@ body, html {
 	}
 
 }
-	
+.partner{
+	img{
+		width: -webkit-fill-available;
+	}
+	.img-col{
+		position: relative;
+	}
+	h2{
+		color:#0d1350;
+	}
+	.fusion-btn{
+		border:none;
+		display: flex;
+		outline:none;
+		background-color: #9079d8;
+		position: absolute;
+		bottom: 1rem;
+		color: white;
+		right: 1rem;
+		transition: width .4s;
+		align-items: center;
+		i{
+			display: none;
+		}
+		&:hover{
+			color:#eee;
+			background-color: #7079d8;
+			i{
+				display: flex;
+				margin-left:.5rem;
+				
+			}
+		}
+	}
+}	
 
 footer div{
     background-color:grey;
