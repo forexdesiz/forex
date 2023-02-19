@@ -26,7 +26,7 @@ body, html {
 }
 
 .hero-text h1 {
-  font-size: xxx-large;
+  font-size: 7rem;
 }
 
 .hero-text button {
@@ -43,6 +43,10 @@ body, html {
 .hero-text button:hover {
   background-color: #555;
   color: white;
+}
+
+.intro iframe {
+  width: -webkit-fill-available;
 }
 
 .discord-section {

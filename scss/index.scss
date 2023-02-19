@@ -22,7 +22,7 @@ body, html {
 	transform: translate(-50%, -50%);
 	color: white;
 	h1{
-		font-size: xxx-large;
+		font-size:7rem;
 	}
 	button {
 		border: none;
@@ -39,7 +39,11 @@ body, html {
 		}
 	}
 }
-
+.intro{
+	iframe {
+		width: -webkit-fill-available;
+	}
+}
 .discord-section{
 	background-image: url(../media/discordback.png);
 			background-attachment: fixed;
