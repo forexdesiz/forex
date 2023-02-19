@@ -127,8 +127,11 @@ body, html {
 .connectUs{
 	.smartcard{
 		padding: .4rem;
+		border-radius: 20px;
 		.banner{
 			height: 150px;
+			border-top-right-radius: 20px;
+			border-top-left-radius: 20px;
 			position: relative;
 			filter: brightness(0.2);
 			border: 4px;
