@@ -70,19 +70,29 @@ body, html {
 		text-transform: capitalize;
 	}
 	.discord-button{
+		
 		background-color: none;
 		background-color: #d9a712;
 		border: 0;
 		width: max-content;
+		display: flex;
+		align-items: center;
 		padding: 0.2rem 5rem;
 		border-radius: 20px;
+	
+		img{
+			// animation: myAnim 1s ease 0s infinite alternate-reverse both;
+			width: 30px;
+			margin-left: 1rem;
+			
+		}
 		// box-shadow: 0px 4px 10px -4px #ebebeb;
 		&:hover{
-			background-color: #5e4806;
 			// box-shadow: 0px 4px 10px 0px #ebebeb;
+			background-color: #ae7052;
 		}
 		&:active{
-			background-color: #5e4806 !important;
+			background-color: #ae7052 !important;
 			// box-shadow: 0px 4px 10px 0px #ebebeb;
 		}
 

@@ -74,16 +74,23 @@ body, html {
   background-color: #d9a712;
   border: 0;
   width: max-content;
+  display: flex;
+  align-items: center;
   padding: 0.2rem 5rem;
   border-radius: 20px;
 }
 
+.discord-section .discord-button img {
+  width: 30px;
+  margin-left: 1rem;
+}
+
 .discord-section .discord-button:hover {
-  background-color: #5e4806;
+  background-color: #ae7052;
 }
 
 .discord-section .discord-button:active {
-  background-color: #5e4806 !important;
+  background-color: #ae7052 !important;
 }
 
 footer div {
