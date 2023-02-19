@@ -97,6 +97,11 @@ body, html {
   background-color: #ae7052 !important;
 }
 
+.discord-section iframe {
+  width: 350px;
+  height: 400px;
+}
+
 footer div {
   background-color: grey;
   color: white;
