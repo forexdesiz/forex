@@ -126,6 +126,52 @@ body, html {
   margin-left: .5rem;
 }
 
+.connectUs .smartcard {
+  padding: .4rem;
+}
+
+.connectUs .smartcard .banner {
+  height: 150px;
+  position: relative;
+  filter: brightness(0.2);
+  border: 4px;
+}
+
+.connectUs .smartcard .avtar {
+  position: absolute;
+  top: 128px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 60px;
+  padding: .2rem;
+}
+
+.connectUs .smartcard .avtar img {
+  width: 40px;
+}
+
+.connectUs .smartcard .smart-button {
+  color: white;
+}
+
+.connectUs .smartcard .smart-button.tik {
+  background-color: #111;
+}
+
+.connectUs .smartcard .smart-button.insta {
+  background: #f09433;
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+
+.connectUs .smartcard .smart-button.you {
+  background-color: #cc0000e6;
+}
+
 footer div {
   background-color: grey;
   color: white;
